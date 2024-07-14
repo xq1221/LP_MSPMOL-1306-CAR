@@ -126,14 +126,6 @@ SYSCONFIG_WEAK void SYSCFG_DL_GPIO_init(void)
 
     DL_GPIO_initDigitalOutput(Motor_Motor_4_IOMUX);
 
-    DL_GPIO_initDigitalOutput(Motor_Motor_5_IOMUX);
-
-    DL_GPIO_initDigitalOutput(Motor_Motor_6_IOMUX);
-
-    DL_GPIO_initDigitalOutput(Motor_Motor_7_IOMUX);
-
-    DL_GPIO_initDigitalOutput(Motor_Motor_8_IOMUX);
-
     DL_GPIO_initDigitalInput(Encoder_Capture_Capture1_A_IOMUX);
 
     DL_GPIO_initDigitalInput(Encoder_Capture_Capture1_B_IOMUX);
@@ -145,27 +137,19 @@ SYSCONFIG_WEAK void SYSCFG_DL_GPIO_init(void)
     DL_GPIO_clearPins(GPIOA, Tracking_PIN_0_PIN |
 		HCSR04_TX_PIN |
 		Motor_Motor_2_PIN |
-		Motor_Motor_4_PIN |
-		Motor_Motor_6_PIN |
-		Motor_Motor_8_PIN);
+		Motor_Motor_4_PIN);
     DL_GPIO_setPins(GPIOA, Motor_Motor_1_PIN |
-		Motor_Motor_3_PIN |
-		Motor_Motor_5_PIN |
-		Motor_Motor_7_PIN);
+		Motor_Motor_3_PIN);
     DL_GPIO_enableOutput(GPIOA, Tracking_PIN_0_PIN |
 		HCSR04_TX_PIN |
 		Motor_Motor_1_PIN |
 		Motor_Motor_2_PIN |
 		Motor_Motor_3_PIN |
-		Motor_Motor_4_PIN |
-		Motor_Motor_5_PIN |
-		Motor_Motor_6_PIN |
-		Motor_Motor_7_PIN |
-		Motor_Motor_8_PIN);
-    DL_GPIO_setLowerPinsPolarity(GPIOA, DL_GPIO_PIN_10_EDGE_RISE |
-		DL_GPIO_PIN_11_EDGE_RISE |
+		Motor_Motor_4_PIN);
+    DL_GPIO_setLowerPinsPolarity(GPIOA, DL_GPIO_PIN_11_EDGE_RISE |
+		DL_GPIO_PIN_10_EDGE_RISE |
 		DL_GPIO_PIN_15_EDGE_RISE);
-    DL_GPIO_setUpperPinsPolarity(GPIOA, DL_GPIO_PIN_26_EDGE_RISE);
+    DL_GPIO_setUpperPinsPolarity(GPIOA, DL_GPIO_PIN_21_EDGE_RISE);
     DL_GPIO_clearInterruptStatus(GPIOA, Encoder_Capture_Capture1_A_PIN |
 		Encoder_Capture_Capture1_B_PIN |
 		Encoder_Capture_Capture2_A_PIN |

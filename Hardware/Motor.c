@@ -20,13 +20,9 @@ void Motor_Init(void) {
   DL_TimerG_startCounter(PWM_34_INST);
 
   DL_GPIO_setPins(Motor_PORT, Motor_Motor_1_PIN);
-  DL_GPIO_clearPins(Motor_PORT, Motor_Motor_2_PIN);
+  DL_GPIO_setPins(Motor_PORT, Motor_Motor_2_PIN);
   DL_GPIO_setPins(Motor_PORT, Motor_Motor_3_PIN);
-  DL_GPIO_clearPins(Motor_PORT, Motor_Motor_4_PIN);
-  DL_GPIO_setPins(Motor_PORT, Motor_Motor_5_PIN);
-  DL_GPIO_clearPins(Motor_PORT, Motor_Motor_6_PIN);
-  DL_GPIO_setPins(Motor_PORT, Motor_Motor_7_PIN);
-  DL_GPIO_clearPins(Motor_PORT, Motor_Motor_8_PIN);
+  DL_GPIO_setPins(Motor_PORT, Motor_Motor_4_PIN);
 
   // NVIC_EnableIRQ(PWM_0_INST_INT_IRQN);
 }
@@ -39,14 +35,12 @@ void Motor_Init(void) {
 void Motor1_SetSpeed(int32_t Speed) {
   if (Speed > 0) {
     DL_GPIO_setPins(Motor_PORT, Motor_Motor_1_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_2_PIN);
   } else if (Speed < 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_2_PIN);
     DL_GPIO_clearPins(Motor_PORT, Motor_Motor_1_PIN);
   }
 
   DL_TimerG_setCaptureCompareValue(PWM_12_INST, Speed_Range_Handle(Speed),
-                                   GPIO_PWM_12_C0_IDX);
+                                   GPIO_PWM_34_C1_IDX);
 }
 
 /**
@@ -56,15 +50,13 @@ void Motor1_SetSpeed(int32_t Speed) {
  */
 void Motor2_SetSpeed(int32_t Speed) {
   if (Speed > 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_3_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_4_PIN);
+    DL_GPIO_setPins(Motor_PORT, Motor_Motor_2_PIN);
   } else if (Speed < 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_4_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_3_PIN);
+    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_2_PIN);
   }
 
   DL_TimerG_setCaptureCompareValue(PWM_12_INST, Speed_Range_Handle(Speed),
-                                   GPIO_PWM_12_C1_IDX);
+                                   GPIO_PWM_34_C0_IDX);
 }
 
 /**
@@ -74,15 +66,13 @@ void Motor2_SetSpeed(int32_t Speed) {
  */
 void Motor3_SetSpeed(int32_t Speed) {
   if (Speed > 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_5_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_6_PIN);
+    DL_GPIO_setPins(Motor_PORT, Motor_Motor_3_PIN);
   } else if (Speed < 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_6_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_5_PIN);
+    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_3_PIN);
   }
 
   DL_TimerG_setCaptureCompareValue(PWM_34_INST, Speed_Range_Handle(Speed),
-                                   GPIO_PWM_34_C0_IDX);
+                                   GPIO_PWM_12_C1_IDX);
 }
 
 /**
@@ -92,15 +82,13 @@ void Motor3_SetSpeed(int32_t Speed) {
  */
 void Motor4_SetSpeed(int32_t Speed) {
   if (Speed > 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_7_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_8_PIN);
+    DL_GPIO_setPins(Motor_PORT, Motor_Motor_4_PIN);
   } else if (Speed < 0) {
-    DL_GPIO_setPins(Motor_PORT, Motor_Motor_8_PIN);
-    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_7_PIN);
+    DL_GPIO_clearPins(Motor_PORT, Motor_Motor_4_PIN);
   }
 
   DL_TimerG_setCaptureCompareValue(PWM_34_INST, Speed_Range_Handle(Speed),
-                                   GPIO_PWM_34_C1_IDX);
+                                   GPIO_PWM_12_C0_IDX);
 }
 
 /**
