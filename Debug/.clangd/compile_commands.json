@@ -1,0 +1,57 @@
+[
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/System/Delay.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/System/UART.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/OLED.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/Motor.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/PID.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/Control.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/HCSR04.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/main.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/Encoder.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Hardware/Sensor.c"
+   },
+   {
+      "directory" : "D:/electric_racing/workspace_ccstheia/Car/Debug",
+      "command"   : "clang++ -D__MSPM0L1306__ -I\"D:/electric_racing/workspace_ccstheia/Car\" -I\"D:/electric_racing/workspace_ccstheia/Car/Debug\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source/third_party/CMSIS/Core/Include\" -I\"D:/APP_INSTALL_CONTENT/CCSThia/mspm0_sdk_2_01_00_03/source\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/armv7em-ti-none-eabihf/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c++/v1\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/lib/clang/15.0.7/include\" -isystem\"D:/APP_INSTALL_CONTENT/CCSThia/ccs/tools/compiler/ti-cgt-armllvm_3.2.2.LTS/include/c\"",
+      "file"      : "D:/electric_racing/workspace_ccstheia/Car/Debug/ti_msp_dl_config.c"
+   }
+]
